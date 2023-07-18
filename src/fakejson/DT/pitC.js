@@ -1,19 +1,19 @@
 
 const DTpitC = [
     {
-        noUnit: 'DG01',
+        noUnit: 'DG09',
         location: [0.7992,117.5293]
     },
     {
-        noUnit: 'DG02',
+        noUnit: 'DG10',
         location: [0.7992,117.5293]
     },
     {
-        noUnit: 'DG03',
+        noUnit: 'DG11',
         location: [0.7992,117.5293]
     },
     {
-        noUnit: 'DG04',
+        noUnit: 'DG12',
         location: [0.7992,117.5293]
     }
 ]

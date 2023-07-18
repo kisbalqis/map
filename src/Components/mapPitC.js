@@ -8,7 +8,7 @@ import DGpitC from "../fakejson/DG/pitC";
 import BDpitC from "../fakejson/BD/pitC";
 
 function MapsPitC() {
-  const positionB = [0.8366, 117.6006];
+  const positionB = [0.7992,117.5293];
 
   // console.log(pitA)
   const leafletMap = useRef(null);
@@ -26,15 +26,15 @@ function MapsPitC() {
             attribution='&copy; <a href="https://osm.org/copyright">OpenStreetMap</a> contributors'
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           />
-          <Marker position={[0.7743, 117.6455]} icon={IconDT}>
+          <Marker position={[0.7986,117.5323]} icon={IconDT}>
             <Popup>{DTpitC.length} Unit</Popup>
           </Marker>
 
-          <Marker position={[0.7751, 117.649]} icon={IconDG}>
+          <Marker position={[0.7977,117.5493]} icon={IconDG}>
             <Popup>{DGpitC.length} Unit</Popup>
           </Marker>
 
-          <Marker position={[0.772, 117.6455]} icon={IconBD}>
+          <Marker position={[0.7963,117.5283]} icon={IconBD}>
             <Popup>{BDpitC.length} Unit</Popup>
           </Marker>
 

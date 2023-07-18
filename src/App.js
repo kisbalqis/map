@@ -4,7 +4,8 @@ import Maps from "./Components/map";
 import Unit from "./Components/unit";
 import "./assets/style.css";
 import MapsPitA from "./Components/mapPitA";
-
+import MapsPitB from "./Components/mapPitB";
+import MapsPitC from "./Components/mapPitC";
 function App() {
   const [map, setMap] = useState("");
   return (
@@ -21,11 +22,16 @@ function App() {
             <>
               <MapsPitA />
             </>
+          ):map ==="pitB"?(
+            <MapsPitB/>
+          ):map === "pitC"?(
+            <MapsPitC/>
           ):(
             <>
               <Maps />
             </>
           )}
+
         </div>
       </div>
     </>

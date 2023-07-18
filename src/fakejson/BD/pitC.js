@@ -1,18 +1,18 @@
 const BDpitC = [
     {
-        noUnit: 'BD01',
+        noUnit: 'BD10',
         location: [0.7992,117.5293]
     },
     {
-        noUnit: 'BD02',
+        noUnit: 'BD11',
         location: [0.7992,117.5293]
     },
     {
-        noUnit: 'BD03',
+        noUnit: 'BD12',
         location: [0.7992,117.5293]
     },
     {
-        noUnit: 'BD04',
+        noUnit: 'BD13',
         location: [0.7992,117.5293]
     }
 ]

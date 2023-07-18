@@ -10,7 +10,7 @@ import BDpitB from "../fakejson/BD/pitB";
 function MapsPitB() {
   const positionB = [0.8366, 117.6006];
 
-  // console.log(pitA)
+  console.log(DTpitB)
   const leafletMap = useRef(null);
   return (
     <>
@@ -26,15 +26,15 @@ function MapsPitB() {
             attribution='&copy; <a href="https://osm.org/copyright">OpenStreetMap</a> contributors'
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           />
-          <Marker position={[0.7743, 117.6455]} icon={IconDT}>
+          <Marker position={[0.8346,117.6076]} icon={IconDT}>
             <Popup>{DTpitB.length} Unit</Popup>
           </Marker>
 
-          <Marker position={[0.7751, 117.649]} icon={IconDG}>
+          <Marker position={[0.8386,117.6006]} icon={IconDG}>
             <Popup>{DGpitB.length} Unit</Popup>
           </Marker>
 
-          <Marker position={[0.772, 117.6455]} icon={IconBD}>
+          <Marker position={[0.8366,117.6026]} icon={IconBD}>
             <Popup>{BDpitB.length} Unit</Popup>
           </Marker>
 

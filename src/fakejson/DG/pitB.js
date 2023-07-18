@@ -1,18 +1,18 @@
 const DGpitB = [
     {
-        noUnit: 'DG01',
+        noUnit: 'DG05',
         location: [0.8366,117.6006]
     },
     {
-        noUnit: 'DG02',
+        noUnit: 'DG06',
         location: [0.8366,117.6006]
     },
     {
-        noUnit: 'DG03',
+        noUnit: 'DG07',
         location: [0.8366,117.6006]
     },
     {
-        noUnit: 'DG04',
+        noUnit: 'DG08',
         location: [0.8366,117.6006]
     }
 ]
