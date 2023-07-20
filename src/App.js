@@ -7,7 +7,7 @@ import MapsPitA from "./Components/mapPitA";
 import MapsPitB from "./Components/mapPitB";
 import MapsPitC from "./Components/mapPitC";
 function App() {
-  const [map, setMap] = useState("");
+  const [maps, setMap] = useState("");
   return (
     <>
       <div className="text mt-2 px-3">
@@ -15,16 +15,16 @@ function App() {
       </div>
       <div className="row mt-5 px-3">
         <div className="col-sm-4">
-          <Unit setMap={setMap} />
+          <Unit maps={maps} setMap={setMap} />
         </div>
         <div className="col-sm-8">
-          {map === "pitA" ? (
+          {maps === "pitA" ? (
             <>
               <MapsPitA />
             </>
-          ):map ==="pitB"?(
+          ):maps ==="pitB"?(
             <MapsPitB/>
-          ):map === "pitC"?(
+          ):maps === "pitC"?(
             <MapsPitC/>
           ):(
             <>

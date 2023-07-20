@@ -30,7 +30,7 @@ function MapsPitC() {
             <Popup>{DTpitC.length} Unit</Popup>
           </Marker>
 
-          <Marker position={[0.7977,117.5493]} icon={IconDG}>
+          <Marker position={[0.7977,117.5443]} icon={IconDG}>
             <Popup>{DGpitC.length} Unit</Popup>
           </Marker>
 

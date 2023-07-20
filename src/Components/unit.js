@@ -4,7 +4,7 @@ import ModalForm from "./modal";
 import FormUnit from "./formunit";
 import AccordionTruck from "./accordionTruck";
 
-function Unit({setMap}) {
+function Unit({maps,setMap}) {
   return (
     <>
       <div className="card">
@@ -27,7 +27,7 @@ function Unit({setMap}) {
           <h5 className="card-title">
             <strong>Unit</strong>
           </h5>
-            <AccordionTruck/>
+            <AccordionTruck maps={maps}/>
           </div>
         </div>
       </div>
